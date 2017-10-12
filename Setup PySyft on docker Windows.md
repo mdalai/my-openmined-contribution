@@ -22,7 +22,7 @@ docker -v
 ```
 if docker version is displayed, you are good to go. Please keep the IP address in your mind. We will use it when we use jupyter notebook in the browser.
 
-![alt text][docker_start]
+   ![alt text][docker_start]
 
 
 ## Setup PySyft on the docker windows
@@ -51,7 +51,7 @@ Following steps are executed on the _docker quickstart terminal_.
 ```
 if you see 3 images listed as bellow, you are good to go to next step. 
 
-![alt text][docker_images]
+   ![alt text][docker_images]
 
 6. Run PySyft-dev image and SSH into the container with following command:
 ```bash
@@ -61,6 +61,6 @@ if you see 3 images listed as bellow, you are good to go to next step.
 ```bash
      redis-server & FLASK_APP=/usr/bin/Capsule/capsule/local_server.py flask run & cd notebooks && jupyter notebook --allow-root --ip=0.0.0.0
 ```
-you should see the URL for the notebook: http://0.0.0.0:8888/?token=xxxxxxxxxxxxxxxxxxxxx.  Now you need to replace the IP - 0.0.0.0 with docker-machine’s IP address (the one we see when starting the _docker quickstart terminal_).
+     you should see the URL for the notebook: http://0.0.0.0:8888/?token=xxxxxxxxxxxxxxxxxxxxx.  Now you need to replace the IP - 0.0.0.0 with docker-machine’s IP address (the one we see when starting the _docker quickstart terminal_).
 
 8. Start the browser and input above URL. You should be able to run the notebook. 
