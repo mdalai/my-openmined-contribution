@@ -13,8 +13,7 @@ Following guide is made to assist setting up PySyft on docker windows.
 ## Install docker on windows
 if you already installed **docker toolbox on windows** skip this installation part.
 1. Download and install the [Docker toolbox on windows](https://docs.docker.com/toolbox/toolbox_install_windows/). You should see following 3 components if the installation is successful. 
-
-![alt text][desktop]
+<p align="center"> ![alt text][desktop] </p>
 
 2. start _docker quickstart terminal_ and run following command:
 ```bash
