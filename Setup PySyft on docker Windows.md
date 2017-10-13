@@ -43,7 +43,7 @@ Following steps are executed on the _docker quickstart terminal_.
 ```
 4. Run following command to create PySyft dev image (includes Capsule installation).
 ```bash
-    docker build -f dockerfiles/Dockerfile.dev -t openmined/pysyft-dev:local2 .
+    docker build -f dockerfiles/Dockerfile.dev -t openmined/pysyft-dev:local .
 ```
 5. Check if images are installed by following command
 ```bash
